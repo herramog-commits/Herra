@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <style>
+  
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family: Times new Roman; background:#0d0d2f; color:#fff; overflow-x:hidden; }
+
+  a { text-decoration:none; color:#fff; }
+
+  /* Header centré */
+  header {
+background-image: url("Lt.jpg"); 
+background-repeat:no-repeat;  
+background-size:cover;    
+border :1px solid #0d0d1f;  
+border-radius:10px;    
+    margin:0px 10px 10px 10px;
+    padding-top:260px;
+    padding-left:4px;
+    height:400px;
+    text-align:left;
+  }
+  
+  
+  header h1 {
+    font-size:1.8em;
+    font-weight:bold;}
+  .slogan{
+  margin-bottom:14px;
+}
+  aside {
+border:1px solid wite;
+    margin:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align :right;
+  }  
+aside a {
+border:1px solid white;
+padding:8px;
+border-radius: 10px;
+}  
+ /* Barre de recherche et liens horizontal */
+  .search-bar { 
+    margin-left:10px; width:60%;}
+  .search-bar input { width:100%; max-width:600px; padding :8px 0px 8px 6px;border-radius:8px; border:1px solid white;
+    text-align:left;
+    color:white;
+ background-color: #0d0d2f;}
+section {
+    margin-top:60px;
+  }
+  .section h2 {
+    margin-bottom:10px;
+    margin-left:14px;
+    text-align:left;
+    font-size:1.6em; 
+    font-weight:bold;
+    color: #00ff99;
+    
+  }
+  
+  .section p.subtitle {
+    color:white;
+    text-align:left;
+    margin-bottom:30px;
+    margin-left:16px;
+    font-size:0.9em;
+  }
+  /* Cartes de jeu */
+  .game-card { 
+    min-width:17em;
+    height:25em; 
+    border-radius:8px;
+    transition:1s; 
+    flex-shrink:0; 
+  }
+
+
+  .game-card:hover { 
+    transform:scale(1.05); 
+    box-shadow:0 0 15px #00ff99;
+  }
+
+  .game-card h3 { 
+    margin-top:10.45em;
+    padding-left:10px;
+    text-align: left;
+    color:purple;
+    font-size:26px;
+  }
+
+   /* Carousel horizontal */
+  .carousel { display:flex; overflow-x:auto; gap:20px; scroll-behavior:smooth; padding:10px; }
+  .carousel::-webkit-scrollbar { height:2px;}
+   /*Cartes de jeu */
+  .game-card p { padding-left:13px;font-size:0.9em; color:white;margin-top:0px;}
+  .game-card a button { margin-bottom:1px; width:100%; padding:10px; border:none; border-radius:8px; background:#00ff99; color:#000; font-weight:bold; cursor:pointer; transition:0.3s; }
+  .game-card a button:hover { background:#00cc7a; }
+  
+  
+  
+  
+  
+  
+  
+    /* Sections */
+  .sectin { padding:40px 20px; border:1px solid white; }
+  .sectin h2 { color:#00ff99; margin-bottom:10px; text-align:left; font-size:1.8em; font-weight:bold; }
+  .sectin p.subtitle { color:white; text-align:left; margin-bottom:30px; font-size:0.9em; }
+  /* Carousel horizontal */
+  .carosel { margin-left:20px;display:flex; overflow-x:auto; gap:20px; scroll-behavior:smooth; padding-bottom:10px; }
+  .carosel::-webkit-scrollbar { height:2px;}
+   /*Cartes de jeu */
+  .game { width:190px;height:9em; background:#002233; border-radius:10px; transition:1s; flex-shrink:0; }
+  .game:hover { transform:scale(1.05); box-shadow:0 0 15px #00ff99; }
+  .game h3 {padding-top:50px;color:red; }
+  .game p { font-size:0.9em; color:white; }
+  .game a button { margin-bottom:1px; width:70%; padding:10px; border:none; border-radius:8px; background:#00ff99; color:#000; font-weight:bold; cursor:pointer; transition:0.3s; }
+  .game a button:hover { background:#00cc7a; }
+
+  
+  
+  
+  
+  
+  
+     /* Sections Services, Subscription, Testimonials, Partners */
+  
+  .rid {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px; 
+    justify-content:center;
+  }
+  .card { background:#002233; padding:17px; border-radius:10px; flex:1 1 250px; text-align:center; transition:0.3s; }
+  .card:hover { transform:scale(1.03); box-shadow:0 0 10px #00ff99; }
+ .carousel{
+   padding:10px 10px 20px 10px;
+   display:flex;
+   justify-content:space-around;
+ }
+  /* Footer */
+  footer { background:#001a1a; padding:20px; text-align:center; font-size:1em; color:#aaa; }
+  
+  
+  
+ </style>
+</head>
+<body>
+<header>
+  <h1><em style="color:white;">Gasikara <em style="color:red;">Sôma</em><br>Vidéo</em> <em style="color:#00ff99;">Game</em></h1>
+  <div class="slogan" style="font-size:14px;">Découvre nos creation, Téléchargé<br>Optimisé, Joué librement!!</div>
+ <div class="search-bar">
+</div> 
+  </header>
+  <aside>
+  <a href="#">Moi</a>
+  <a href="#">Mess</a>
+  <a href="#">Aboné</a>
+  <a href="#">Menu</a>  
+  </aside>
+ 
+  <div class="search-bar">
+  <input type="text" placeholder="Recherche...">
+</div>
+  
+  <section class="section">
+ 
+  <h2 style="color:silver;">Gasikara<br>Sôma Vidéo Game</h2>
+  <p class="subtitle">Exposé des jeux vidéo virale, libre à télécharger n'attendez plus !!</p> 
+   
+  <div class="carousel" id="carousel">
+    <div class="game-card"  style="background-image:url('La.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;">
+        <h3>Fortnite</h3>
+      <p>Plateforme : PS4/PS5 /PC/ PS / Gratuit</p>
+      <a href="https://www.epicgames.com/fortnite/fr/home" target="_blank" rel="noopener noreferrer"><button>Téléchargement vers site officiel</button></a>   
+    </div>
+      
+   <div class="game-card" style="background-image:url('Lb.jpg');background-repeat:no-repeat;background-size:cover;">
+      <h3>Rocket League</h3>
+      <p>Plateforme : PC / Gratuit / Officiel</p>
+      <a href="https://www.epicgames.com/rocketleague/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement depuis le site officiel</button>
+      </a>
+    </div>
+      
+    <div class="game-card" style="background-image:url('Lc.jpg');background-repeat:no-repeat;background-size:cover;">
+      <h3>Among Us</h3>
+      <p>Plateforme : PC / Gratuit / Officiel</p>
+      <a href="https://www.innersloth.com/gameAmongUs.php" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement depuis le site officiel</button>
+      </a>
+    </div> 
+    </div>
+  
+       <div class="carousel" id="carousel">
+    <div class="game-card"  style="background-image:url('Lf.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;">
+        <h3>Fortnite</h3>
+      <p>Plateforme : PS4/PS5 /PC/ PS / Gratuit</p>
+      <a href="https://www.epicgames.com/fortnite/fr/home" target="_blank" rel="noopener noreferrer"><button>Téléchargement vers site officiel</button></a>   
+    </div>
+      
+   <div class="game-card" style="background-image:url('Ld.jpg');background-repeat:no-repeat;background-size:cover;">
+      <h3>Rocket League</h3>
+      <p>Plateforme : PC / Gratuit / Officiel</p>
+      <a href="https://www.epicgames.com/rocketleague/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement depuis le site officiel</button>
+      </a>
+    </div>
+      
+    <div class="game-card" style="background-image:url('Le.jpg');background-repeat:no-repeat;background-size:cover;">
+      <h3>Among Us</h3>
+      <p>Plateforme : PC / Gratuit / Officiel</p>
+      <a href="https://www.innersloth.com/gameAmongUs.php" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement depuis le site officiel</button>
+      </a>
+    </div> 
+    </div>
+
+      
+
+    
+      <section class="section">
+  <h2>Platforme<br/>Androide</h2>
+  <p class="subtitle">Exposé des jeux vidéo virale, libre à télécharger n'attendez plus !!</p>
+    
+  <div class="carosel" id="carosel">
+    <div class="game">
+      <h3>Fortnite</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/fortnite/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+    
+      <div class="game">
+      <h3>Fortnite</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/fortnite/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Telechargement</button>
+      </a>
+    </div> 
+    
+    <div class="game">
+       <h3>Rocket League</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/rocketleague/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+    
+    <div class="game">
+      <h3>Among Us</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.innersloth.com/gameAmongUs.php" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+    <div class="game">
+      <h3>Fortnite</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/fortnite/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+    
+        <div class="game">
+    <h3>Fortnite</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/fortnite/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Telechargement</button>
+      </a>
+    </div> 
+   </div>
+    
+      <div class="carosel" id="carosel">
+    <div class="game">
+     <h3>Rocket League</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/rocketleague/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+        
+    <div class="game">
+      <h3>Among Us</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.innersloth.com/gameAmongUs.php" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+        
+  <div class="game">
+     <h3>Fortnite</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/fortnite/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+    
+        <div class="game">
+     <h3>Fortnite</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/fortnite/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Telechargement</button>
+      </a>
+    </div>   
+    <div class="game">
+      <h3>Rocket League</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.epicgames.com/rocketleague/fr/home" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+    <div class="game">
+      <h3>Among Us</h3>
+      <p>Plateforme : Androide</p>
+      <a href="https://www.innersloth.com/gameAmongUs.php" target="_blank" rel="noopener noreferrer">
+        <button>Téléchargement</button>
+      </a>
+    </div>
+  </div>
+     
+</section>
+    
+      <section class="sectn" style="border-top:1px solid silver;padding-left:20px;
+border-bottom:1px solid silver;padding-top:40px;padding-bottom:40px;border-radius:60px;">
+  <h2 style="color:silver;border-bottom:1px solid silver;text-align:right;padding-right:20px;">Club Gasikara</h2>
+  <div class="grd">
+    <div class="cad">
+      <p style="padding-left:20px;"><h3 style="margin:center;color:white;">Devenez membre de notre club,</h3><h4 style="font-weight:normal;">S'interagir avec tout nos membre dynamique,</h4><h4>Avoir acces a tout nos offre plus des millions des jeux gratuis,des  tuto Guide, assistance, et beaucoup d autre.....</h4></p>
+      <a href=""><h2 style="margin-top:10px;border-bottom:2px solid #00ff99;">Go Club</h2></a>
+    </div>
+  </div>
+</section>
+
+  
+  <div class="SERVICE">
+<section class="section">
+  <h2>Nos Services</h2>
+  
+  <div class="rid">
+    
+    <div class="card">
+      <h3>Installation PC / Console</h3>
+      <p>Nous installons vos jeux et optimisons votre machine pour la meilleure expérience.</p>
+    </div>
+    
+    <div class="card">
+      <h3>Optimisation Gaming</h3>
+      <p>Boostez votre performance et fluidité pour tous vos jeux officiels.</p>
+    </div> 
+    
+    <div class="card">
+      <h3>Coaching & Tutoriels</h3>
+      <p>Apprenez à maîtriser vos jeux avec nos guides et sessions personnalisées.</p>
+    </div>
+    
+    <div class="card">
+      <h3>Tournois Locaux</h3>
+      <p>Participez à nos compétitions et événements avec prix et récompenses.</p>
+    </div>
+  </div>
+</section>
+    
+    
+    
+    
+    
+</div>
+  
+<section class="section">
+  <h2>Membre<br>Dynamique</h2>
+  <div class="grid">
+    <div class="card">
+      <p>"Installation rapide et efficace, je recommande Gasikara Vidéo Game !" <br> Rivo</p><br>
+      <p>"Grâce aux tutoriels, j’ai optimisé mon PC et mes jeux tournent super bien !"<br>Hanta</p>
+    </div>
+  </div>
+</section>
+
+<section class="Inde">
+  <h2>Studios Indés</h2>
+  <div class="carousel" id="partners-carousel">
+    <div class="car">Epic Games</div>
+    <div class="car">Steam</div>
+    <div class="car">itch.io</div>
+  </div>
+</section>
+
+<footer>
+Gasikara Soma Vidéo Game@gmail.com<br>Tous droits réservés<br>
+  <br>Contact :<br> 
+  <em style="color:#57D62D">whatsapp </em>: +26103200000 <br>
+  <em style="color:#2DACD6">facebook</em> : Gasikara Soma
+  
+</footer>
+    <script>
+     // Carousel auto-scroll jeux
+  const carousel = document.getElementById('carousel');
+  let scrollAmount =0;
+  setInterval(() => {
+    scrollAmount += 320;
+    if(scrollAmount >= carousel.scrollWidth - carousel.clientWidth){
+      scrollAmount = 0;
+    }
+    carousel.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+  }, 3000);
+
+  // Carousel auto-scroll partenaires
+  const partners = document.getElementById('partners-carousel');
+  let partnerScroll = 0;
+  setInterval(() => {
+    partnerScroll += 260;
+    if(partnerScroll >= partners.scrollWidth - partners.clientWidth){
+      partnerScroll = 0;
+    }
+    partners.scrollTo({ left: partnerScroll, behavior: 'smooth' });
+  }, 4000);
+    </script>
+    
+    
+    
+    
+ </body>
+</html>
